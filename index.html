@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 0502</title>
-    <link rel="stylesheet" href="./css/style.css" >
+    <title>Clase 0601</title>
+    <link rel="stylesheet" href="./css/style.css"/>
 </head>
-
 <body>
+    <!--Agrego el JS-->
+    <script src="./js/login.js"></script>
+
     <div class="normal">Elemento bloque normal 1</div>
     <div class="normal">
         <span>Elemento bloque normal 2</span>
@@ -17,7 +19,10 @@
             Elemento bloque con posición absoluta 3
         </div>
     </div>
-    <div class="normal">Elemento bloque normal 4</div>
+    <div class="normal" id="doLogin">Mostrar Login</div>
+    <script>
+        console.log('Mitad del html');
+    </script>
     <!--Aca comienza nuestra caja-->
     <div class="overlay"></div>
     <div id="cajaLogin">
@@ -29,6 +34,9 @@
         </div>
         <div id="cerrarLogin">X</div>
     </div>
+    <script>
+        console.log('final del html');
+    </script>
 </body>
 
 </html>

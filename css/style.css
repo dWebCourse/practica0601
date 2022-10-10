@@ -45,6 +45,10 @@ div.flotante{
     cursor: pointer;
     z-index: 2;
 }
+#cerrarLogin:hover{
+    background-color: white;
+    color: black;
+}
 
 .filaForm{
     background-color: coral;
@@ -61,6 +65,10 @@ div.flotante{
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
+}
+#enviarForm:hover{
+color: #fff;
+background-color: #4d0000;
 }
 .overlay{
     position: fixed;
